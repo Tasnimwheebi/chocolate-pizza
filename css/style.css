@@ -1,49 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Amatic+SC&family=Caveat:wght@500;700&display=swap');
 body {
     width: 960px;
     margin: auto;
 }
-nav div1  p {
 
+
+header{
+    clear: both;
+    height: 70px;
+    padding-top: 20px;
+    line-height: .3;
+} 
+
+
+.logo {
+    float: left;
+    padding-right: 10px;
+    
 }
 
-nav div2 {
+
+header nav h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Yellowtail', cursive;
+}
+
+
+header nav p {
+    font-size: xxsmall;
+    float: left;
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: lightslategrey;
+    font-family: 'Amatic SC', cursive
+    
+}
+ 
+
+
+ header nav section {
+     float: right;
+     /* padding-top: 20px; */
+     padding-right: 60px;
+     
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+}
+
+
+
+hr {
+    height: 10px;
+    background-image: url(../img/hr-img.png);
+    margin-right: 60px;
+    margin-top: 50px;
+    width: auto;
+    /* margin-bottom: 50px; */
+}
+
+
+.choco {
+    line-height: .1;
+}
+
+
+.choco p {
+ text-transform: uppercase;
+ font-size: small;
+ color: lightslategrey;
+}
+.choco img {
     float: right;
+    margin-right: 60px;
+    padding-bottom: 10px;
 }
 
-
-nav div2 {
-    float:right ;
-    margin-right: 50px;
-}
-nav div2 p {
-    position: absolute;
-}
 
 main section p {
     text-indent: 50px;
+    margin-right: 40px;
 }
  
- form {
+form {
+    font-family: 'Akaya Telivigala', cursive;
     background-image: url("../img/background.png");
-    height: 185px;
-    width: 100%;
-    margin-right: 20px;
-    
-    
+    height: 200px;
+    /* width: 100%; */
+    margin-right:60px;    
 }
 
- form ul {float: left;
 
+form ul {float: left;
+    line-height: 1.5;
     list-style-type: none;
+    text-align: 1.5px;
+    
 }
 
-    form ul2 {
+form ul2 {
         float: right;
         list-style-type: none;
         margin-right: 100px;
         padding-top: 15px;
+        line-height: 1.5;
+}
+
+    /* footer {
+        clear: both;
     }
+    footer img {
+        float: left;
+    }
+    footer h3 {
+        float: left;
+    } */
+main section img {
+        float: left;
+        margin-top: 0px;
+        padding-right: 0px;
+}
+
+main section h3 {
+        margin-left: 40px;
+}
+
+
+main section button {
+        float: right;
+        padding: 15px 25px;
+        background-color: brown;
+        margin-right: 60px;
+        text-transform: uppercase;
+        color: white;
+        border: none;
+
+}
+.food {
+    float: left;
+    margin-left:-50px ;
+   
+}
+.vanessa {
+        margin-bottom: 50px;
+        
+}
+
+    
+.people {
+        line-height: .0;
+        
+}
+
+  /* .food {
+      margin-left: -40px;
+  }   */
+
+.nasa {
+        margin-right: 60px;
+     }
+
 
     footer {
+        margin-top: 50px;
         clear: both;
+    height: 120px; 
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* align-items: center; */
+     }
+
+
+    footer img {
+        width: 20px;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+    }
+
+
+    input[type = "checkbox"]:checked+label {
+        text-decoration: line-through;
+      color: red;
     }
