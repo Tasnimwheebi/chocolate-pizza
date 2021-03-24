@@ -44,7 +44,6 @@ header nav p {
 
  header nav section {
      float: right;
-     /* padding-top: 20px; */
      padding-right: 60px;
      
 }
@@ -62,7 +61,6 @@ hr {
     margin-right: 60px;
     margin-top: 50px;
     width: auto;
-    /* margin-bottom: 50px; */
 }
 
 
@@ -92,7 +90,6 @@ form {
     font-family: 'Akaya Telivigala', cursive;
     background-image: url("../img/background.png");
     height: 200px;
-    /* width: 100%; */
     margin-right:60px;    
 }
 
@@ -112,15 +109,7 @@ form ul2 {
         line-height: 1.5;
 }
 
-    /* footer {
-        clear: both;
-    }
-    footer img {
-        float: left;
-    }
-    footer h3 {
-        float: left;
-    } */
+   
 main section img {
         float: left;
         margin-top: 0px;
@@ -158,9 +147,7 @@ main section button {
         
 }
 
-  /* .food {
-      margin-left: -40px;
-  }   */
+  
 
 .nasa {
         margin-right: 60px;
@@ -176,7 +163,7 @@ main section button {
     margin-left: auto;
     margin-right: auto;
 
-    /* align-items: center; */
+    
      }
 
 
